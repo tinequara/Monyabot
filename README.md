@@ -1,3 +1,4 @@
+
 # Telegram Bot with integration AI
 
 This is a **Telegram bot** that interacts with users in group chats. It listens for specific mentions (e.g., "Моня") and responds using AI. The bot is informal, sarcastic, and humorous.
