@@ -1,8 +1,10 @@
 # Telegram Bot with integration AI
 
 This is a **Telegram bot** that interacts with users in group chats. It listens for specific mentions (e.g., "Моня") and responds using AI. The bot is informal, sarcastic, and humorous.
-
-**Note:** The bot currently **does not respond to private messages**. It only works in group chats.
+## Important: 
+- The **API** calls in the code are implemented for simplicity, not security. They are not intended for production environments and should not be used in sensitive or high-security applications.
+## Note:
+- The bot currently **does not respond to private messages**. It only works in group chats.
 
 ## Features
 
@@ -23,13 +25,18 @@ This is a **Telegram bot** that interacts with users in group chats. It listens 
 
 ## Setup
 
-1. clone repo:
+1. Clone repo:
    ```bash
    git clone https://github.com/tinequara/monyabot.git
 
-2. install required:
+2. Install required:
    ```bash
    pip install -r requirements.txt
-3. run the bot:
+   
+4. **Change tokens in code** (view Important)
+   ```bash
+   TELEGRAM_TOKEN = "your"
+   NEUROAPI_KEY = "your"
+3. Run the bot:
    ```bash
    py monya_bot.py
