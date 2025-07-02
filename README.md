@@ -5,7 +5,7 @@ This is a **Telegram bot** that interacts with users in group chats. It listens 
 ## Important: 
 - The **API** calls in the code are implemented for simplicity, not security. They are not intended for production environments and should not be used in sensitive or high-security applications.
 ## Note:
-- The bot currently **does not respond to private messages**. It only works in group chats.
+- The bot works ONLY in group chats.
 
 ## Features
 
